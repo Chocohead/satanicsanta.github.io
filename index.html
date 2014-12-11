@@ -5,7 +5,6 @@
     <style>
         body {
             background-color:yellow;
-            border:1px solid black;
             margin:30px;
         }
 	    h1 {
@@ -13,6 +12,11 @@
 	        font-family:verdana;
 	    }
     </style
+    <script>
+    	$(function(){
+    		$(#included_content).load("./resources/styles/menu.html");
+    	});
+    </script>
 </head>
 <body>
     <center><h1>Heading</h1></center>
