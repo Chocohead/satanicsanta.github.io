@@ -15,7 +15,27 @@
     </head>
     <body>
         <center>
-            <img src="http://i.stack.imgur.com/jBli3.png">
-            <h1>Updating Python to 3.4</h1></center>
+            <h1><img src="http://i.stack.imgur.com/jBli3.png">Updating Python to 3.4</h1></center>
+            <p>
+                Python 2 is very slowly (it's been 6 years since Python 3.0 was released) being replaced by Python 3 among script developers. Many communities shun those who still use the 2.x versions of Python, such as the ##python-friendly IRC (internet relay chat) channel on irc.freenode.net; their channel topic states that they will not help those using Python 2.x. The main thing that caused the confusion between whether to use 2.x or 3.x comes from Python 2 being developed for two years past Python 3's release; its final 2.7 release was in mid-2010 with a statement of extended support. The main differences and reasons you might want to use Python 3 over 2 are: better text string handling and more consistency in function use
+            </p>
+            <p>
+                Before beginning, you will want to check which version of Python is installed. To do this, enter 'python -V' in the Terminal or Command Prompt. The capital 'V' is important; if you use a lower-case 'v', it will install a .zip file importing module. If it states 3.x, you will not need to follow the rest of this guide. If not, continue.
+            </p>
+            <p>
+                Download <url="https://www.python.org/downloads/">Python 3.x</url> from the Python website and run the install wizard. Follow through the fairly intuitive wizard, reading license agreements and what-not if you please.
+            </p>
+            <p>
+                Run 'python -V' again. If it says '3.x', you do not need to continue. If it does not, run 'python3 -V'. This should give you '3.x'.
+            </p>
+            <p>
+                Still in the Terminal, run 'bash open ~/.bash_profile' to open the bash_profile file in the default text editing software for your computer. This is where aliases for commands can be written.
+            </p>
+            <p>
+                On a new line in the bash_profile file add "python alias=python3". This will allow the command "python3" to be referenced with "python", replacing the old one.
+            </p>
+            <p>
+                Restart your Terminal, then run 'python -V' again. If you followed all of the steps correctly, it should say that you are running 3.x.
+            </p>
     </body>
 </html>
